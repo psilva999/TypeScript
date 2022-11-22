@@ -1,0 +1,2 @@
+# TypeScript
+ Just learning typing
