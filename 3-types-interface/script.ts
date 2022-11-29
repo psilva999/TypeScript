@@ -110,5 +110,5 @@ function showProduct(data: Produto) {
         <li>${ data.empresaMontadora.fundacao }</li>
       </div>
     </div>
-  `;
+  `
 }
