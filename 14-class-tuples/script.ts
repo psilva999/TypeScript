@@ -92,7 +92,6 @@ interface Valores {
 type Venda = [ string, number, string, Valores ]
 
 function somarVendas(preco: Venda[]) {
-
   const somar = preco.reduce((total, atual) => {
     return total + atual[1]
   }, 0)
