@@ -1,6 +1,16 @@
+//Acesse https://www.origamid.com/slide/typescript-para-iniciantes/#/0501-tsconfig/3 em config simples para ver as atualizações
 {
   "compilerOptions": {
     "target": "ESNext",
     "strict": true,
-  }
+    "sourceMap": true,
+    "allowJs": true,
+    "removeComments": true,
+    "noImplicitReturns": true,
+    "outDir": "dist",
+    "isolatedModules": true
+  } //,
+  //escolha o caminho e descomente a vírgula
+  // "include": ["src"],
+  // "exclude": ["node_modules"]
 }
